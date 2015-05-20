@@ -1,0 +1,79 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	font-family: Roboto, san-serif;
+	}
+	
+.menu li a {
+	color: black;
+	
+}
+
+.menu li {
+transition: background-color 0.5s ease 0s
+}
+
+.menu li:hover {
+	background-color: purple;
+	}
+	
+
+.header ul {
+	
+	font-weight: 500;
+	font-size: 18px;
+	
+	list-style: none;
+}
+
+.header li {
+	display: inline;
+	line-height: 100px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+}
+
+.header h1 {
+	font-size: 18px;
+	line-height: 100px;
+	height: 100px;
+	margin-top: 0px;
+}
+
+.jumbotron {
+	background: url("http://i.imgur.com/TdPv0i3.jpg?1") repeat scroll center center / cover;
+ min-height: 400px;
+ width: 100%;
+}
+
+.jumbotron h1 {
+	color: black;
+	}
+	
+.highlight {
+	background: white;
+	color: black;
+	}
+	
+.btn {
+	background: black;
+	border-radius: 0px;
+	padding: 20px 25px;
+	}
+
+a.btn {
+  color: white;
+  font-weight: 300;
+  transition: background-color 0.5s ease 0s
+ }
+ 
+ a.btn:hover {
+ 	background-color: purple;
+ 	color: white;
+ 	}
+ 
+ .right {
+ 	float: right;
+ 	}

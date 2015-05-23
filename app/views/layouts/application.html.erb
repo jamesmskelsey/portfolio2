@@ -6,7 +6,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://unslider.com/unslider.min.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -18,8 +19,8 @@
 					<li><%= link_to_unless_current("Welcome", { action: "welcome" }) %></li>
 					<li><%= link_to_unless_current("Portfolio", { action: "portfolio" }) %> </li>
 					<li><a href="blog">Blog</a></li>
-					<li><a href="about">About</a></li>
-					<li><a href="contact">Contact</a></li>
+					<li><%= link_to_unless_current("About", { action: "about" }) %></li>
+					<li><%= link_to_unless_current("Contact", { action: "contact" }) %></li>
 				</ul>
 			</div>
 			<div class="name col-xs-4">

@@ -1,0 +1,24 @@
+.main {
+  background-color: #ddd;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+.contact-list li {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 25px;
+  padding: 25px;
+}
+
+a:link:visited {
+  text-decoration: none;
+}
+
+a:link:hover {
+  cursor: pointer;
+  text-decoration: none;
+}

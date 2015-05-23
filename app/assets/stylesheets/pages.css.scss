@@ -16,22 +16,20 @@ transition: background-color 0.5s ease 0s
 }
 
 .menu li:hover {
-	background-color: purple;
+	background-color: #CC66FF;
 	}
 	
 
 .header ul {
-	
 	font-weight: 500;
 	font-size: 18px;
-	
 	list-style: none;
 }
 
 .header li {
 	display: inline;
-	line-height: 100px;
-	height: 100px;
+	line-height: 70px;
+	padding: 20px 10px 20px 10px;
 	margin: 0px 0px 0px 0px;
 }
 
@@ -50,7 +48,7 @@ transition: background-color 0.5s ease 0s
 }
 
 .jumbotron h1 {
-	color: black;
+	color: white;
 	}
 	
 .highlight {
@@ -71,7 +69,7 @@ a.btn {
  }
  
  a.btn:hover {
- 	background-color: purple;
+ 	background-color: #CC66FF;
  	color: white;
  	}
  
